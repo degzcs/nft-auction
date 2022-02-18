@@ -2,7 +2,8 @@ class UserRegistration
 
   attr_reader :username, :address, :errors, :user
 
-  def initialize(username:, address:)
+  def initialize(username:, address:, auction_id: nil)
+    # TODO: auction logic not implemented yet
     @username = username
     @address = address
     @errors = []
@@ -10,7 +11,7 @@ class UserRegistration
 
   def call
     @user = User.find_by(username: username)
-    return create_user! unless user
+    create_user! unless user
     @errors << 'wrong address' if !user.authenticate?(address: address)
 
   rescue => e

@@ -4,17 +4,18 @@ class BidChecker
   def initialize(auction_id:, user_id:, amount:)
     @auction_id = auction_id
     @user_id = user_id
-    @amount = amount
+    @amount = amount.to_s
     @errors = []
   end
 
   def call
+    check_numerical_rule
     check_user_exists
     check_amount_rule
     check_last_bidder_rule
     check_model_rules
   rescue => e
-    errors >> e.message
+    errors << e.message
   end
 
   def success?
@@ -34,6 +35,11 @@ class BidChecker
       auction_id: auction_id
     )
     errors << bid.errors.full_messages[0] unless bid.valid?
+  end
+
+  def check_numerical_rule
+    return errors << 'Amount is not a number' unless !!(amount =~ /^[+-]?([1-9]\d*|0)(\.\d+)?$/)
+    @amount = amount.to_f
   end
 
   def check_amount_rule

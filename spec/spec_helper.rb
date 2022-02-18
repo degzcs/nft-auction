@@ -3,6 +3,7 @@ require "rack/test"
 require 'pry'
 require 'database_cleaner/active_record'
 
+ENV['RACK_ENV'] = 'test'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake', '~> 12.0'
+gem 'puma'
 gem 'sinatra'
 gem 'figaro'
 gem "sinatra-activerecord"
