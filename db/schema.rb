@@ -13,12 +13,16 @@
 ActiveRecord::Schema[7.0].define(version: 2022021500002) do
   create_table "auctions", force: :cascade do |t|
     t.string "asset"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "bids", force: :cascade do |t|
-    t.string "amount"
+    t.float "amount"
     t.integer "user_id"
     t.integer "auction_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|

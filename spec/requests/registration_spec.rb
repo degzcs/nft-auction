@@ -5,7 +5,7 @@ describe 'Registration', type: :request do
       username: username,
       address: address }
   end
-  let(:response) { post '/auction/registration', params }
+  let(:response) { post '/auction/1/registration', params }
 
   context 'happy path' do
     let(:username) { 'AlanBritho' }
