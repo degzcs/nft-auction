@@ -24,7 +24,7 @@ for this demo
 to open a rails like console execute:
 
 ```
-bundle exec irb -r ./lib/api.rb
+$ bundle exec irb -r ./config/environment.rb
 ```
 
 ## Run App
