@@ -50,9 +50,10 @@ NOTE: use the `access_token` registation service
 ## Bid
 
 ### Resquest
+Default Port is 3301
 
 ```
-$ curl -H "Content-Type: application/json" -H "Access-Token: <access_token>"  -d '{ "amount": 200}' -X POST http://localhost:3300/auction/1/bid
+$ curl -H "Content-Type: application/json" -H "Access-Token: <access_token>"  -d '{ "amount": 200}' -X POST http://localhost:3301/auction/1/bid
 ``````
 
 ### Response

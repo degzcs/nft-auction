@@ -43,11 +43,12 @@ $ bundle exec puma -C ./config/puma.rb
 ## Get the action status
 
 NOTE: user the `access_token` from registrtion service
+Default Port is 3302
 
 ### Resquest
 
 ```
-$ curl -H "Content-Type: application/json" -H "Access-Token: <access_token>" -X GET http://localhost:3300/auction/1/check-status
+$ curl -H "Content-Type: application/json" -H "Access-Token: <access_token>" -X GET http://localhost:3302/auction/1/check-status
 ``````
 
 ### Response
@@ -61,7 +62,7 @@ or
 ### Resquest
 
 ```
-$ curl -H "Content-Type: application/json" -X GET http://localhost:3300/auction/1/check-status
+$ curl -H "Content-Type: application/json" -X GET http://localhost:3302/auction/1/check-status
 ``````
 
 ### Response
