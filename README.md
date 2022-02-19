@@ -8,7 +8,8 @@ The Ethereum NFT auction allows individuals to make bids on purchasing a *rare*
 - This API will use `JSON` for it's request/responses.
 
 
-requirements are [here] (https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
+The requirements are [here](https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
+
 ### Installation
 
 You can go to the next links to install each service
