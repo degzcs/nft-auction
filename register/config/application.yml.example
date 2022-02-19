@@ -1,0 +1,6 @@
+development:
+  DATABASE_NAME: register.squlite3
+  RSA_NAME: app
+test:
+  DATABASE_NAME: register_test.squlite3
+  RSA_NAME: app

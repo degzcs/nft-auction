@@ -1,0 +1,6 @@
+development:
+  DATABASE_NAME: '../bid/bid.squlite3'
+  RSA_NAME: app
+test:
+  DATABASE_NAME: '../bid/bid_test.squlite3'
+  RSA_NAME: app

@@ -1,6 +1,0 @@
-development:
-  DATABASE_NAME: foo.squlite3
-  RSA_NAME: app
-test:
-  DATABASE_NAME: foo_test.squlite3
-  RSA_NAME: app
