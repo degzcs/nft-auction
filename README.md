@@ -1,5 +1,14 @@
 # NFT auction
 
+The Ethereum NFT auction allows individuals to make bids on purchasing a *rare* single Ethereum NFT (lets call it the Sardine NFT). The APIs functionality consists of:
+
+- registration - allow the user to register themselves to use the platform
+- bid - place bids in USD for the NFT.
+- view - returns the current highest bid.
+- This API will use `JSON` for it's request/responses.
+
+
+requirements are [here] (https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
 ### Installation
 
 You can go to the next links to install each service
@@ -20,7 +29,7 @@ $ bundle exec puma -C .config/puma.rb
 
 ![image](https://user-images.githubusercontent.com/3716432/154773994-fcc74ea6-97e6-43df-b8eb-ca264d0fdbfc.png)
 
-### Foreman
+#### Foreman
 
 ```
 $ gem install foreman
