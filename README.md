@@ -7,8 +7,9 @@ The Ethereum NFT auction allows individuals to make bids on purchasing a *rare*
 - view - returns the current highest bid.
 - This API will use `JSON` for it's request/responses.
 
-
 The requirements are [here](https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
+
+NOTE: Another solution creating a [Monolith](https://github.com/degzcs/nft-auction/tree/monolith)
 
 ### Installation
 
