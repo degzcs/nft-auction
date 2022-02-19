@@ -22,10 +22,10 @@ You can go to the next links to install each service
 
 #### As Individuals
 
-Go to each service and execute in diferent terminals
+Go to each service and execute in three diferent terminals the next command:
 
 ```
-$ bundle exec puma -C .config/puma.rb
+$ bundle exec puma -C ./config/puma.rb
 ```
 
 ![image](https://user-images.githubusercontent.com/3716432/154773994-fcc74ea6-97e6-43df-b8eb-ca264d0fdbfc.png)
