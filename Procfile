@@ -1,3 +1,3 @@
-register:  sh -c 'cd ./register && bundle exec puma -C ./config/puma.rb'
-bid:  sh -c 'cd ./bid && bundle exec puma -C ./config/puma.rb'
-status:  sh -c 'cd ./status && bundle exec puma -C ./config/puma.rb'
+register-service:  sh -c 'cd ./register &&  bundle exec rackup config.ru -p 3300'
+bid-service:  sh -c 'cd ./bid &&  bundle exec rackup config.ru -p 3301'
+status-service:  sh -c 'cd ./register &&  bundle exec rackup config.ru -p 3302'

@@ -38,7 +38,7 @@ class BidChecker
   end
 
   def check_amount_rule
-    errors << 'You have to go higher!' if last_amount && last_amount > amount
+    errors << 'You have to go higher!' if last_amount && last_amount >= amount
   end
 
   def check_last_bidder_rule
