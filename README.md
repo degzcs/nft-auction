@@ -1,5 +1,9 @@
 # NFT auction
 
+register docs: [readme](register/README.md)
+bid docs: [readme](bid/README.md)
+status docs: [readme](status/README.md)
+
 ### Running services
 
 #### As Individuals
