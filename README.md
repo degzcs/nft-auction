@@ -1,8 +1,12 @@
 # NFT auction
 
-register docs: [readme](register/README.md)
-bid docs: [readme](bid/README.md)
-status docs: [readme](status/README.md)
+### Installation
+
+You can go to the next links to install each service
+
+- Register [Readme](register/README.md)
+- Bid [Readme](bid/README.md)
+- Status [Readme](status/README.md)
 
 ### Running services
 
