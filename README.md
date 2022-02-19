@@ -9,7 +9,7 @@ The Ethereum NFT auction allows individuals to make bids on purchasing a *rare*
 
 requirements are [here](https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
 
-NOTE: the original requirement was built 3 APIs. Check it out [here](https://github.com/degzcs/nft-auction/tree/master)
+NOTE: the original requirement was to created 3 APIs. Check it out [here](https://github.com/degzcs/nft-auction/tree/master)
 
 ## Installation
 
