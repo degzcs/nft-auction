@@ -3,15 +3,13 @@
 The Ethereum NFT auction allows individuals to make bids on purchasing a *rare* single Ethereum NFT (lets call it the Sardine NFT). The APIs functionality consists of:
 
 - registration - allow the user to register themselves to use the platform
-- - bid - place bids in USD for the NFT.
-- - view - returns the current highest bid.
--
+- bid - place bids in USD for the NFT.
+- view - returns the current highest bid.
 - This API will use `JSON` for it's request/responses.
 
+requirements are [here](https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
 
-requirements are [here] (https://sardine.notion.site/for-candidate-Sardine-Ethereum-NFT-Auction-152a7c67822f40e6b435f1aca4578811)
-
-NOTE: the original requirement was built 3 APIs. For practical reasons and not enough time I've created only one
+NOTE: the original requirement was built 3 APIs. Check it out [here](https://github.com/degzcs/nft-auction/tree/master)
 
 ## Installation
 
@@ -27,6 +25,7 @@ run migrations
 
 ```
 $ rake db:migrate
+$ RACK_ENV=test && rake db:migrate
 ```
 
 NOTE: the Auction model was created but it will be implemented
